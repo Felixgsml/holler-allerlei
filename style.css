@@ -31,7 +31,7 @@ a{
 }
 p{
     text-decoration: none;
-    color: #333333;
+    color: #000;
 }
 .container{
     max-width: 1300px;
@@ -72,7 +72,7 @@ p{
     background: #801978;
 }
 .header{
-    background: radial-gradient(#fff,#AF3CF5);
+    background: radial-gradient(#AF3CF5,#801978);
 }
 .header .row{
     margin-top: 70px;
@@ -112,7 +112,7 @@ p{
     margin: 20px auto 0;
     position: relative;
     line-height: 60px;
-    color: #333333;
+    color: #000;
 }
 .title::after{
     content: '';
@@ -168,7 +168,7 @@ h4{
     margin: 20px auto 0;
     position: relative;
     line-height: 60px;
-    color: #333333;
+    color: #000;
 }
 .Kontakt{
     padding-bottom: 100px;
