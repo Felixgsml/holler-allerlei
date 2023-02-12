@@ -3,15 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    width: 100%;
+}
+.img-info{
+    width: 100%;
+}
+.img-info h1{
+    padding: 30px 30px 20px;
+    font-size: 50px;
+    line-height: 45px;
+}
+img-info h3{
+    padding: 20px 30px 20px;
+    font-size: 24px;
+    line-height: 30px;
+}
+img-info p{
+    padding: 0px 30px 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.img-laden{
+    width: 100%;
+    height: auto;
+}
 
 body{
     font-family: 'Comic Sans MS', 'VERDANA', 'ARIAL', 'HELVETICA';
 }
-
 .navbar{
     display: flex;
     align-items: center;
     padding: 20px;
+    justify-content: space-between;
 }
 nav{
     flex: 1;
@@ -39,9 +64,13 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
+.row-home{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .row{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -52,7 +81,7 @@ p{
 }
 .col-2 img{
     max-width: 100%;
-    padding: 50px 0;
+    padding: 0px 0;
 }
 .col-2 h1{
     font-size: 50px;
@@ -153,7 +182,6 @@ h4{
 }
 .home-text{
     padding-bottom: 50px;
-    padding-left: 100px;
 }
 .backgroud-unten{
     background: #700080;
@@ -191,6 +219,93 @@ h4{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+
+@media only screen and (min-width: 720px) {
+    .wrapper{
+        width: 600px;
+        margin: 0;
+    }
+    .img-info h1{
+        padding: 0px 0px 0px;
+    }
+    .img-info h3{
+        padding: 0px 0px 0px;
+    }
+    .img-info p{
+        padding: 0px 0px 0px;
+    }
+    .img-laden{
+    width: 100%;
+    height: auto;
+    }
+    .home-text{
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 50px; 
+    }
+}
+@media only screen and (min-width: 1075px) {
+    .wrapper{
+        width: 1000px;
+    }
+    .img-info{
+    width: 50%;
+    height: auto;
+    float: left;
+    }
+    .img-laden{
+    width: 50%;
+    height: auto;
+    float: right;
+    }
+    .img-info h1{
+        padding: 20px 0px 0px 30px;
+    }
+    .img-info h3{
+        padding: 20px 0px 0px 30px;
+    }
+    .img-info p{
+        padding: 0px 0px 0px 30px;
+    }
+}
+@media
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #111;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
