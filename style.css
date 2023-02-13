@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 .wrapper{
     width: 100%;
@@ -25,10 +21,9 @@ img-info p{
     line-height: 20px;
 }
 .img-laden{
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
-
 body{
     font-family: 'Comic Sans MS', 'VERDANA', 'ARIAL', 'HELVETICA';
 }
@@ -106,6 +101,9 @@ p{
 .header .row{
     margin-top: 70px;
 }
+.home-text{
+    padding-bottom: 50px;
+}
 .categories{
     margin: 0px 0;
 }
@@ -123,9 +121,6 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
-.produkte-und-account{
-    text-align: center;
-}
 .col-4{
     flex-basis: 25%;
     padding: 10px;
@@ -135,6 +130,16 @@ p{
 }
 .col-4 img{
     width: 100%;
+}
+h4{
+    color: #000;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+    transform: translateY(-5px);
 }
 .title{
     text-align: center;
@@ -154,35 +159,6 @@ p{
     left: 50%;
     transform: translateX(-50%);
 }
-h4{
-    color: #000;
-    font-weight: normal;
-}
-.col-4 p{
-    font-size: 14px;
-}
-.rating .fa{
-    color: #B468D9;
-}
-.col-4:hover{
-    transform: translateY(-5px);
-}
-.oeffnungszeiten{
-    text-align-last: center;
-}
-.sortiment-text{
-    text-align-last: center;
-}
-.texte{
-    text-align-last: center;
-}
-.font{
-    font-family: 'Comic Sans MS', 'VERDANA', 'ARIAL', 'HELVETICA';
-    font-size: 14px;
-}
-.home-text{
-    padding-bottom: 50px;
-}
 .backgroud-unten{
     background: #700080;
     padding-left: 25px;
@@ -191,6 +167,37 @@ h4{
 .text-unten{
     color: #fff;
 }
+.oeffnungszeiten{
+    text-align-last: center;
+}
+.oeffnungszeiten2{
+    margin: 0;
+}
+.oeffnungszeiten3{
+    padding-bottom: 75px;
+    padding-top: 75px;
+    margin: 0;
+}
+.oeffnungszeiten4{
+    padding-right: 130px;
+    margin: 0;
+}
+.oeffnungszeiten-container{
+    max-width: 500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.sortiment-text{
+    text-align-last: center;
+}
+.texte{
+    text-align-last: center;
+}
+.Kontakt{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
 .title2{
     text-align: center;
     margin: 20px auto 0;
@@ -198,29 +205,54 @@ h4{
     line-height: 60px;
     color: #000;
 }
-.Kontakt{
-    padding-bottom: 100px;
-    padding-top: 100px;
+.title{
+    text-align: center;
+    margin: 20px auto 0;
+    position: relative;
+    line-height: 60px;
+    color: #000;
 }
-.oeffnungszeiten2{
-
-}
-.oeffnungszeiten3{
-    padding-bottom: 145px;
-    padding-top: 150px;
-}
-.oeffnungszeiten4{
-    padding-right: 120px;
-}
-.oeffnungszeiten5{
-    padding-right: 120px;
-}
-.ueber-uns-text{
-    padding-left: 25px;
-    padding-right: 25px;
+.title::after{
+    content: '';
+    background: #B174DD;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
+@media only screen and (min-width: 450px){
+    .line-break{
+        display: none;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1115px){
+    .toggle-button{
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+    toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: #111;
+        border-radius: 10px;
+    }
+}
 @media only screen and (min-width: 720px) {
     .wrapper{
         width: 600px;
@@ -245,7 +277,9 @@ h4{
     padding-right: 50px; 
     }
 }
-@media only screen and (min-width: 1075px) {
+
+
+@media only screen and (min-width: 1115px) {
     .wrapper{
         width: 1000px;
     }
@@ -269,47 +303,3 @@ h4{
         padding: 0px 0px 0px 30px;
     }
 }
-@media
-.toggle-button{
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: #111;
-    border-radius: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
