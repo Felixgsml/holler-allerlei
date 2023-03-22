@@ -19,7 +19,7 @@
 }
 .popup{
     background-color: #AF3CF5;
-    width: 350px;
+    width: 300px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
