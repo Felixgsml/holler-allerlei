@@ -5,7 +5,10 @@
     text-decoration: none;
     color: #000;
 }
-
+.body{
+    height: 100vh;
+    
+}
 .header{
     background: radial-gradient(#AF3CF5,#801978);
 }
@@ -14,6 +17,33 @@
         padding-left: 25px;
         padding-right: 25px;
 }
+.popup{
+    background-color: #AF3CF5;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+}
+.popup button{
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+
 
 @media only screen and (min-width: 0px){
     .home-text{
@@ -96,7 +126,7 @@
     }
     .col-3{
         flex-basis: 30%;
-        min-width: 250px;
+        min-width: 100%;
         margin-bottom: 30px;
     }
     .col-3 img{
@@ -154,9 +184,97 @@
     .font{
         padding-bottom: 25px;
     }
+    .toggle-button{
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+    .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: #000;
+        border-radius: 10px;
+    }
+    .navbar{
+        display: flex;
+        padding-top: .75rem;
+    }
+    nav{
+        display: block;
+        padding-top: 25px;
+        align-content: center;
+    }
+    .logo{
+        display: none;
+    }
+/*    nav ul{
+        background-color: #700080;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        left: -100vw;
+        width: 100vw;
+        height: calc(100vh - 50px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: 1s;
+    }*/
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        text-align: center;
+        list-style: none;
+    }
+    nav.active{
+        left: 0;
+    }
+    nav ul li a:hover{
+        border-bottom: 2px solid #000;
+    }
+    .ueber-uns-text{
+        padding-left: 20px;
+        padding-right: 20px;    
+    }
+    .col-5{
+        flex-basis: 30%;
+        min-width: 250px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .col-5 img{
+        width: 100%;
+    }
+    .oeffnungszeiten{
+        text-align-last: center;
+    }
+    .br-oeffnungszeiten{
+    display: flex;
+    }
+
 }
 
 @media only screen and (min-width: 950px){
+    .col-3{
+        min-width: 250px;
+    }
+    nav ul{
+        display: flex;
+    }
+    .toggle-button{
+        display: none;
+    }
     .home-text{
         float: left;
         padding-left: 25px;
@@ -196,11 +314,12 @@
         display: flex;
         align-items: center;
         padding: 20px;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     nav{
         flex: 1;
         text-align: right;
+        display: contents;
     }
     nav ul{
         display: inline-block;
@@ -231,4 +350,8 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+    .br-oeffnungszeiten{
+    display: none;
+}
+
 }
