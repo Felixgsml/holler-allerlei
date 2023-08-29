@@ -347,14 +347,27 @@
         padding-right: 130px;
         margin: 0;
     }
+    .oeffnungszeiten-container2{
+        max-width: 400px;
+        padding-left: 200px;
+    }
     .oeffnungszeiten-container{
-        max-width: 500px;
+        max-width: 1080px;
         margin: auto;
         padding-left: 25px;
         padding-right: 25px;
     }
+    .oeffnungszeiten-container3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     .br-oeffnungszeiten{
     display: none;
-}
-
+    }
+    .col-6{
+        margin: inherit;
+        min-width: 500px;
+        padding-bottom: 30px;
+    }
 }
