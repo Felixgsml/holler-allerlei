@@ -262,6 +262,11 @@
     .br-oeffnungszeiten{
     display: flex;
     }
+    .col-6{
+        margin: inherit;
+        width: 300px;
+        padding-bottom: 30px;
+    }
 
 }
 
