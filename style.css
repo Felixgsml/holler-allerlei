@@ -10,16 +10,13 @@
     
 }
 .header{
-    background: radial-gradient(#AF3CF5,#801978);
+    background: linear-gradient(#AF3CF5,#801978);
 }
 .backgroud-unten{
         background: #700080;
         padding-left: 25px;
         padding-right: 25px;
 }
-
-
-
 @media only screen and (min-width: 0px){
     .popup{
         background-color: #AF3CF5;
