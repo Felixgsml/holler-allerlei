@@ -10,8 +10,14 @@
     
 }
 .header{
+    background: #df69fa;
+}
+/*.header{
     background: linear-gradient(#AF3CF5,#801978);
 }
+.header-sortiment{
+    background: linear-gradient(to right, #AF3CF5, #fff, #801978);
+}*/
 .backgroud-unten{
         background: #700080;
         padding-left: 25px;
