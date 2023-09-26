@@ -4,6 +4,8 @@
     font-family: 'Comic Sans MS', 'VERDANA', 'ARIAL', 'HELVETICA';
     text-decoration: none;
     color: #000;
+    box-sizing: border-box;
+
 }
 .body{
     height: 100vh;
@@ -22,8 +24,106 @@
         background: #700080;
         padding-left: 25px;
         padding-right: 25px;
+
+    
+
+    
+    
+    
 }
 @media only screen and (min-width: 0px){
+
+.nav {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 35px;
+  color: #000;
+  font-weight: bold;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links{
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+.nav a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:950px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #700080;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}   
+    
     .popup{
         background-color: #AF3CF5;
         width: 300px;
@@ -135,6 +235,15 @@
     .col-3 img{
         width: 100%;
     }
+    .col-7{
+        flex-basis: 30%;
+        min-width: 500px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .col-7 img{
+        width: 100%;
+    }
     .small-container{
         max-width: 1080px;
         margin: auto;
@@ -157,14 +266,12 @@
     .title2{
         text-align: center;
         margin: 20px auto 0;
-        position: relative;
         line-height: 60px;
         color: #000;
     }
     .title{
         text-align: center;
         margin: 20px auto 0;
-        position: relative;
         line-height: 60px;
         color: #000;
     }
@@ -215,40 +322,6 @@
     .logo{
         display: none;
     }
-/*    nav ul{
-        background-color: #700080;
-        position: fixed;
-        top: 50px;
-        left: 0;
-        left: -100vw;
-        width: 100vw;
-        height: calc(100vh - 50px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transition: 1s;
-    }
-    nav{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    nav ul{
-        flex-direction: column;
-    }
-    nav li{
-        text-align: center;
-        list-style: none;
-    }
-    nav .active{
-        left: 0;
-    }
-    nav ul li a:hover{
-        border-bottom: 2px solid #000;
-    }
-    nav-menu{
-        
-    }*/
     .ueber-uns-text{
         padding-left: 20px;
         padding-right: 20px;    
@@ -277,6 +350,7 @@
 }
 
 @media only screen and (min-width: 950px){
+
     .col-3{
         min-width: 250px;
     }
