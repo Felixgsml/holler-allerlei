@@ -14,12 +14,7 @@
 .header{
     background: #df69fa;
 }
-/*.header{
-    background: linear-gradient(#AF3CF5,#801978);
-}
-.header-sortiment{
-    background: linear-gradient(to right, #AF3CF5, #fff, #801978);
-}*/
+
 .backgroud-unten{
         background: #700080;
         padding-left: 25px;
@@ -61,13 +56,13 @@
 .nav > .nav-links{
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 22px;
 }
 .nav a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .nav > .nav-links > a:hover {
