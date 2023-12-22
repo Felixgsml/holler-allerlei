@@ -295,8 +295,21 @@
         min-width: 10rem;
         padding-bottom: 30px;
     }
-    
-    
+    .col-7{
+        flex-basis: 30%;
+        min-width: 500px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .col-7 img{
+        width: 100%;
+    }
+    .title3{
+        text-align: center;
+        margin: 20px auto 0;
+        line-height: 60px;
+        color: #000;
+    }
     
     
     
