@@ -9,25 +9,34 @@
 }
 .body{
     height: 100vh;
-    
+}
+.nav_background{
+        background: #700080;
 }
 .header{
     background: #df69fa;
 }
 
+/*.header{
+    background: linear-gradient(#AF3CF5,#801978);
+}
+.header-sortiment{
+    background: linear-gradient(to right, #AF3CF5, #fff, #801978);
+}*/
+
 .backgroud-unten{
         background: #700080;
         padding-left: 25px;
         padding-right: 25px;
-
-    
-
-    
-    
-    
 }
+
+
+
+
+
 @media only screen and (min-width: 0px){
 
+    
 .nav {
   height: 50px;
   width: 100%;
@@ -41,7 +50,7 @@
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 35px;
-  color: #000;
+  color: #fff;
   font-weight: bold;
   padding-left: 0px;
   padding-bottom: 10px;
@@ -56,7 +65,7 @@
 .nav > .nav-links{
   display: inline;
   float: right;
-  font-size: 22px;
+  font-size: 18px;
 }
 .nav a {
   display: inline-block;
@@ -64,7 +73,6 @@
   text-decoration: none;
   color: #fff;
 }
-
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -117,70 +125,7 @@
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
-}   
-    
-    .popup{
-        background-color: #AF3CF5;
-        width: 300px;
-        padding: 30px 40px;
-        position: absolute;
-        transform: translate(-50%,-50%);
-        left: 50%;
-        top: 50%;
-        border-radius: 10px;
-    }
-    .popup div{
-        display: block;
-        margin: 0 0 -45px 285px;
-        background-color: transparent;
-        font-size: 30px;
-        color: #c5c5c5;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-    .popup p{
-        font-size: 14px;
-        text-align: justify;
-        margin: 20px 0;
-    }
-    .home-text{
-        text-align: center;
-    }
-    .img-info{
-        width: 100%;
-    }
-    .img-info h1{
-        font-size: 50px;
-        line-height: 45px;
-        margin: 25px;
-    }
-    img-info h3{
-        font-size: 24px;
-        line-height: 30px;
-        margin: 15px;
-    }
-    img-info p{
-        font-size: 12px;
-        line-height: 20px;
-        margin: 10px;
-    }
-    .img-laden{
-        margin: 25px;
-        padding-bottom: 55px;
-        width: 300px;
-        height: 100%;
-    }
-    .img-laden2{
-        display: flex;
-        justify-content: center;
-    }
-    .container{
-        max-width: 1300px;
-        margin: auto;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
+}
 
     .btn{
         display: inline-block;
@@ -194,21 +139,40 @@
     .btn:hover{
         background: #801978;
     }
-    a{
-        color: #000;
-        text-decoration: none;
+    .popup{
+        background-color: #AF3CF5;
+        width: 300px;
+        padding: 30px 40px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 10px;
     }
-    p{
-        text-decoration: none;
-        color: #000;
+    .popup div{
+        display: block;
+        margin: 0 0 -45px 220px;
+        background-color: transparent;
+        font-size: 30px;
+        color: #c5c5c5;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
-    .DHL-u-GLS{
-        color: #fff;
+    .popup p{
+        font-size: 14px;
+        text-align: justify;
+        margin: 20px 0;
+    }
+    
+    
+    
+    .br-950px{
+        display: none;
     }
     .col-2{
         flex-basis:50%;
         min-width: 300px;
-    
     }
     .col-2 img{
         max-width: 100%;
@@ -219,144 +183,11 @@
         line-height: 60px;
         margin: 25px 0;
     }
-    .categories{
-        margin: 0px 0;
-    }
-    .col-3{
-        flex-basis: 30%;
-        min-width: 100%;
-        margin-bottom: 30px;
-    }
-    .col-3 img{
-        width: 100%;
-    }
-    .col-7{
-        flex-basis: 30%;
-        min-width: 500px;
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-    .col-7 img{
-        width: 100%;
-    }
-    .small-container{
-        max-width: 1080px;
-        margin: auto;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .text-unten{
-        color: #fff;
-    }
-    .sortiment-text{
-        text-align-last: center;
-    }
-    .texte{
-        text-align-last: center;
-    }
-    .Kontakt{
-        padding-bottom: 100px;
-        padding-top: 100px;
-    }
-    .title2{
-        text-align: center;
-        margin: 20px auto 0;
-        line-height: 60px;
-        color: #000;
-    }
-    .title{
-        text-align: center;
-        margin: 20px auto 0;
-        line-height: 60px;
-        color: #000;
-    }
-    .title::after{
-        content: '';
-        background: #B174DD;
-        width: 80px;
-        height: 5px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
     .font{
         padding-bottom: 25px;
     }
-    .toggle-button{
-        position: absolute;
-        top: .75rem;
-        right: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 21px;
-    }
-    .toggle-button .bar{
-        height: 3px;
-        width: 100%;
-        background-color: #000;
-        border-radius: 10px;
-    }
-    .navbar{
-        display: flex;
-        padding-top: .75rem;
-    }
-    nav{
-        display: block;
-        padding-top: 25px;
-        align-content: center;
-    }
-    .logo{
-        display: none;
-    }
-    .ueber-uns-text{
-        padding-left: 20px;
-        padding-right: 20px;    
-    }
-    .col-5{
-        flex-basis: 30%;
-        min-width: 250px;
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-    .col-5 img{
-        width: 100%;
-    }
-    .oeffnungszeiten{
-        text-align-last: center;
-    }
-    .br-oeffnungszeiten{
-    display: flex;
-    }
-    .col-6{
-        margin: inherit;
-        width: 300px;
-        padding-bottom: 30px;
-    }
-
-}
-
-@media only screen and (min-width: 950px){
-
-    .col-3{
-        min-width: 250px;
-    }
-    nav ul{
-        display: flex;
-    }
-    .toggle-button{
-        display: none;
-    }
     .home-text{
-        float: left;
+        align-content: center;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 100px;
@@ -367,7 +198,127 @@
     .img-info h1{
         font-size: 50px;
         line-height: 45px;
+    }
+    img-info h3{
+        font-size: 24px;
+        line-height: 30px;
+        margin: 15px;
+        justify-content: center;
+    }
+    img-info p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px;
+        justify-content: center;
+    }
+    .img-laden{
+        display: block;
+        margin: auto;
+        padding-bottom: 50px;
+        width: 90%;
+        height: 100%;
+    }
+    .text-unten{
+        color: #fff;
+    }
+    .ueber-uns-text{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .col-5{
+        flex-basis: 30%;
+        min-width: 250px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .col-5 img{
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .small-container{
+        max-width: 1080px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .categories{
+        margin: 0px 0;
+    }
+    .title2{
+        text-align: center;
+        margin: 1px auto 0;
+        line-height: 60px;
+        color: #000;
+    }
+    .col-3{
+        flex-basis: 30%;
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .col-3 img{
+        width: 100%;
+    }
+    .font{
+        padding-bottom: 25px;
+    }
+    .title{
+        text-align: center;
+        margin: 20px auto 0;
+        line-height: 60px;
+        color: #000;
+    }
+    .DHL-u-GLS{
+        color: #fff;
+    }
+    .sortiment-text{
+        text-align-last: center;
+        padding-left: 10px;
+        padding-right: 
+    }
+    .oeffnungszeiten{
+        text-align-last: center;
+    }
+    .Kontakt{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .col-6{
+        margin: inherit;
+        min-width: 10rem;
+        padding-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    
+
+@media only screen and (min-width: 950px){
+
+    
+    .img-laden{
         margin: 25px;
+        padding-top: 15px;
+        padding-bottom: 55px;
+        width: 75%;
+        height: 75%;
+    }
+    .img-info{
+        width: 50%%;
+    }
+    .img-info h1{
+        font-size: 50px;
+        line-height: 45px;
+        margin: 25px 0;
     }
     img-info h3{
         font-size: 24px;
@@ -379,72 +330,24 @@
         line-height: 20px;
         margin: 10px;
     }
-    .img-laden{
-        margin: 25px;
-        padding-top: 15px;
-        padding-bottom: 55px;
-        width: 75%;
-        height: 75%;
+    .home-text{
+        float: left;
+        padding-top: 100px;
     }
     .img-laden2{
         display: flex;
         justify-content: center;
     }
-    .navbar{
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        justify-content: flex-end;
+    .br-950px{
+        display: block;
     }
-    nav{
-        flex: 1;
-        text-align: right;
-        display: contents;
+    .col-3{
+        min-width: 250px;
     }
-    nav ul{
-        display: inline-block;
-        list-style-type: none;
-    }
-    nav ul li{
-        display: inline-block;
-        margin-right: 20px;
-    }
-    .oeffnungszeiten{
-        text-align-last: center;
-    }
-    .oeffnungszeiten2{
-        margin: 0;
-    }
-    .oeffnungszeiten3{
-        padding-bottom: 75px;
-        padding-top: 75px;
-        margin: 0;
-    }
-    .oeffnungszeiten4{
-        padding-right: 130px;
-        margin: 0;
-    }
-    .oeffnungszeiten-container2{
-        max-width: 400px;
-        padding-left: 200px;
-    }
-    .oeffnungszeiten-container{
-        max-width: 1080px;
-        margin: auto;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .oeffnungszeiten-container3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .br-oeffnungszeiten{
-    display: none;
-    }
-    .col-6{
-        margin: inherit;
-        min-width: 500px;
-        padding-bottom: 30px;
-    }
+
+
+    
+    
+    
+    
 }
