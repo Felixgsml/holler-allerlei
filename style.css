@@ -1,0 +1,797 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Expletus Sans', 'Asmelina Harley';
+    text-decoration: none;
+    color: #3c3c3b;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #E9E2DC;
+}
+
+
+
+
+
+@media only screen and(min-width: 0){
+
+    .circle{
+        background-color: #AB577A;
+        width: 300px;
+        height: 300px;
+        border-radius: 250px;
+        position: relative;
+        top: -150px;
+        left: -150px;
+        z-index: 1;
+    }
+    
+    
+    
+    @keyframes movement1 {
+        0%   {left:0px; top:0px;}
+        100% {left:50px; top:300px;}
+    }
+    
+    .circle1{
+        background-color: #878F77;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        -webkit-animation-name: movement1; 
+        -webkit-animation-duration: 3s;
+        animation-name: movement1;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement2 {
+        0%   {left:0; top:0;}
+        100% {left:600px; top:150px;}
+    }
+    
+    .circle2{
+        background-color: #878F77;
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+        position: absolute;
+        top: 150px;
+        left: 600px;
+        -webkit-animation-name: movement2; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement2;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement3 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:300px; top:25px;}
+    }
+    
+    .circle3{
+        background-color: #BDC6B5;
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+        position: absolute;
+        top: 25px;
+        left: 300px;
+        -webkit-animation-name: movement3; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement3;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement4 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:450px; top:700px;}
+    }
+    
+    .circle4{
+        background-color: #BDC6B5;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        position: absolute;
+        top: 700px;
+        left: 450px;
+        -webkit-animation-name: movement4; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement4;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        z-index: -1;
+    }
+    
+    
+    
+    @keyframes movement5 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:1000px; top:100px;}
+    }
+    
+    .circle5{
+        background-color: #BDC6B5;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        position: absolute;
+        top: 100px;
+        left: 1000px;
+        -webkit-animation-name: movement5; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement5;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement6 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:950px; top:290px;}
+    }
+    
+    .circle6{
+        background-color: #E3D5D4;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        position: absolute;
+        top: 290px;
+        left: 950px;
+        -webkit-animation-name: movement6; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement6;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement7 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:800px; top:450px;}
+    }
+    
+    .circle7{
+        background-color: #AB577A;
+        width: 125px;
+        height: 125px;
+        border-radius: 150px;
+        position: absolute;
+        top: 450px;
+        left: 800px;
+        -webkit-animation-name: movement7; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement7;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement8 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:100px; top:700px;}
+    }
+    
+    .circle8{
+        background-color: #AB577A;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        position: absolute;
+        top: 700px;
+        left: 100px;
+        -webkit-animation-name: movement8; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement8;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement9 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:600px; top:-150px;}
+    }
+    
+    .circle9{
+        background-color: #AB577A;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        position: absolute;
+        top: -150px;
+        left: 600px;
+        -webkit-animation-name: movement9; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement9;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement9 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:600px; top:-150px;}
+    }
+    
+    .circle9{
+        background-color: #AB577A;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        position: absolute;
+        top: -150px;
+        left: 600px;
+        -webkit-animation-name: movement9; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement9;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement10 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:1200px; top:285px;}
+    }
+    
+    .circle10{
+        background-color: #878F77;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        position: absolute;
+        top: 285px;
+        left: 1200px;
+        -webkit-animation-name: movement10; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement10;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        z-index: 0;
+    }
+    
+    
+    
+    @keyframes movement11 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:475px; top:350px;}
+    }
+    
+    .circle11{
+        background-color: #BDC6B5;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        position: absolute;
+        top: 350px;
+        left: 475px;
+        -webkit-animation-name: movement11; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement11;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    .logo{
+        position: absolute;
+        left: 150px;
+        top: 300px;
+        z-index: 1;
+    }
+    
+    
+    
+    @keyframes opacity {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    
+    .logo{
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }
+    
+    
+    
+    .box1{
+        position: absolute;
+        left: 21rem;
+        top: 250px;
+        width: 1200px;
+        height: 350px;
+        border: 5px solid #AB577A;
+        z-index: 2;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .box2{
+        position: absolute;
+        left: 22.5rem;
+        top: 275px;
+        width: 1200px;
+        height: 350px;
+        border: 5px solid #AB577A;
+        z-index: 2;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    .h1{
+        font-family: 'Expletus Sans';
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .h1{
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+    }
+    
+    .p{
+        font-size: 18px;
+        font-family: 'Expletus Sans';
+        margin-top: 25px;
+        text-align: center;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    .p a{
+        font-size: 18px;
+        text-decoration: underline;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    .p2{
+        font-size: 20px;
+        font-family: 'Expletus Sans';
+        margin-top: 25px;
+        text-align: center;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3.75s;
+        animation-fill-mode: forwards; 
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 950px){
+
+
+
+    .circle{
+        background-color: #AB577A;
+        width: 500px;
+        height: 500px;
+        border-radius: 250px;
+        position: relative;
+        top: -250px;
+        left: -250px;
+        z-index: 1;
+    }
+    
+    
+    
+    @keyframes movement1 {
+        0%   {left:0px; top:0px;}
+        100% {left:50px; top:300px;}
+    }
+    
+    .circle1{
+        background-color: #878F77;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        -webkit-animation-name: movement1; 
+        -webkit-animation-duration: 3s;
+        animation-name: movement1;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement2 {
+        0%   {left:0; top:0;}
+        100% {left:600px; top:150px;}
+    }
+    
+    .circle2{
+        background-color: #878F77;
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+        position: absolute;
+        top: 150px;
+        left: 600px;
+        -webkit-animation-name: movement2; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement2;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement3 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:300px; top:25px;}
+    }
+    
+    .circle3{
+        background-color: #BDC6B5;
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+        position: absolute;
+        top: 25px;
+        left: 300px;
+        -webkit-animation-name: movement3; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement3;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement4 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:450px; top:700px;}
+    }
+    
+    .circle4{
+        background-color: #BDC6B5;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        position: absolute;
+        top: 700px;
+        left: 450px;
+        -webkit-animation-name: movement4; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement4;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        z-index: -1;
+    }
+    
+    
+    
+    @keyframes movement5 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:1000px; top:100px;}
+    }
+    
+    .circle5{
+        background-color: #BDC6B5;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        position: absolute;
+        top: 100px;
+        left: 1000px;
+        -webkit-animation-name: movement5; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement5;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement6 {
+        0%   {left:-100px; top:-100px;}
+        100% {left:950px; top:290px;}
+    }
+    
+    .circle6{
+        background-color: #E3D5D4;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        position: absolute;
+        top: 290px;
+        left: 950px;
+        -webkit-animation-name: movement6; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement6;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement7 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:800px; top:450px;}
+    }
+    
+    .circle7{
+        background-color: #AB577A;
+        width: 125px;
+        height: 125px;
+        border-radius: 150px;
+        position: absolute;
+        top: 450px;
+        left: 800px;
+        -webkit-animation-name: movement7; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement7;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement8 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:100px; top:700px;}
+    }
+    
+    .circle8{
+        background-color: #AB577A;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        position: absolute;
+        top: 700px;
+        left: 100px;
+        -webkit-animation-name: movement8; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement8;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement9 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:600px; top:-150px;}
+    }
+    
+    .circle9{
+        background-color: #AB577A;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        position: absolute;
+        top: -150px;
+        left: 600px;
+        -webkit-animation-name: movement9; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement9;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement9 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:600px; top:-150px;}
+    }
+    
+    .circle9{
+        background-color: #AB577A;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        position: absolute;
+        top: -150px;
+        left: 600px;
+        -webkit-animation-name: movement9; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement9;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    @keyframes movement10 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:1200px; top:285px;}
+    }
+    
+    .circle10{
+        background-color: #878F77;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        position: absolute;
+        top: 285px;
+        left: 1200px;
+        -webkit-animation-name: movement10; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement10;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        z-index: 0;
+    }
+    
+    
+    
+    @keyframes movement11 {
+        0%   {left:-200px; top:-200px;}
+        100% {left:475px; top:350px;}
+    }
+    
+    .circle11{
+        background-color: #BDC6B5;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        position: absolute;
+        top: 350px;
+        left: 475px;
+        -webkit-animation-name: movement11; 
+        -webkit-animation-duration: 8s;
+        animation-name: movement11;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    
+    .logo{
+        position: absolute;
+        left: 25.5rem;
+        top: 300px;
+        z-index: 1;
+    }
+    
+    
+    
+    @keyframes opacity {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    
+    .logo{
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }
+    
+    
+    
+    .box1{
+        position: absolute;
+        left: 21rem;
+        top: 250px;
+        width: 1200px;
+        height: 350px;
+        border: 5px solid #AB577A;
+        z-index: 2;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .box2{
+        position: absolute;
+        left: 22.5rem;
+        top: 275px;
+        width: 1200px;
+        height: 350px;
+        border: 5px solid #AB577A;
+        z-index: 2;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    .h1{
+        font-family: 'Expletus Sans';
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .h1{
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+    }
+    
+    .p{
+        font-size: 18px;
+        font-family: 'Expletus Sans';
+        margin-top: 25px;
+        text-align: center;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    .p a{
+        font-size: 18px;
+        text-decoration: underline;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    .p2{
+        font-size: 20px;
+        font-family: 'Expletus Sans';
+        margin-top: 25px;
+        text-align: center;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1.5s;
+        animation-delay: 3.75s;
+        animation-fill-mode: forwards; 
+    }
+}
